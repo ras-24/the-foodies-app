@@ -1,2 +1,2 @@
-# the-foodies-app
-The Foodies App
+# The Foodies App
+
