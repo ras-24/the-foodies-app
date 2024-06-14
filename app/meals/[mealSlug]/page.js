@@ -3,6 +3,11 @@ import { notFound } from 'next/navigation';
 import { getMeal } from '@/lib/meals';
 import classes from "./page.module.css";
 
+export const metadata = {
+  title: 'All Meals',
+  description: 'Browse the delicious meals shared by our vibrant community.',
+};
+
 export default function MealDetailsPage({params}) {
 	const meal = getMeal(params.mealSlug)
 
